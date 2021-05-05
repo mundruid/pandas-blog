@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "pandas-blog"
+version = "0.1.0"
+description = ""
+authors = ["y"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+jupyter = "^1.0.0"
+ipykernel = "^5.5.3"
+setuptools = "^56.0.0"
+numpy = "^1.20.2"
+python-dateutil = "^2.8.1"
+pytz = "^2021.1"
+keras = "^2.4.3"
+scapy = "^2.4.5"
+pyshark = "^0.4.3"
+matplotlib = "^3.4.1"
+scikit-learn = "^0.24.2"
+pandas = "^1.2.4"
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
