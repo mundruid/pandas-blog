@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pandas"
+name = "pandas-blog"
 version = "0.1.0"
 description = ""
 authors = ["y"]
@@ -17,6 +17,7 @@ scapy = "^2.4.5"
 pyshark = "^0.4.3"
 matplotlib = "^3.4.1"
 scikit-learn = "^0.24.2"
+pandas = "^1.2.4"
 
 
 [tool.poetry.dev-dependencies]
