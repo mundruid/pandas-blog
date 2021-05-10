@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/Users/drx/Library/Caches/pypoetry/virtualenvs/pandas-blog-JUoYj9fb-py3.8/bin/python",
+    "python.pythonPath": "<full_path_to_poetry_venv>",
     "workbench.colorCustomizations": {
         "activityBar.activeBackground": "#3399ff",
         "activityBar.activeBorder": "#bf0060",
