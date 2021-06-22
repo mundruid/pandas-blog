@@ -1,6 +1,6 @@
 # Pandas
 
-Pandas data processing Jupyter notebook for blog post. Includes datasets from the [Kitsune Network Attack Dataset](https://www.kaggle.com/ymirsky/network-attack-dataset-kitsune).
+Pandas data processing Jupyter notebook for blog post. The datasets are taken from the [Kitsune Network Attack Dataset](https://www.kaggle.com/ymirsky/network-attack-dataset-kitsune). You will need to download the files: OS_Scan.pcap, SYN_Dos.pcap and export these to csvs. The Mirai csv is already included, the other two files were too large to be in the repo.
 
 ## Install dependencies
 
@@ -12,6 +12,6 @@ All the Python dependencies can be installed using poetry. Follow the steps belo
 
 3. Switch to the poetry virtual environment: `poetry shell`.
 
-4. Run: `which python` and copy the full path of the Python interpreter to `.vscode/settings.json` substituting the variable: `<full_path_to_poetry_venv>`
+4. Run: `which python` and copy the full path of the Python interpreter to `.vscode/settings.json` substituting the variable: `"python.pythonPath": <full_path_to_python_env_var>`
 
 5. Change the Jupyter notebook kernel to the poetry venv Python path.
