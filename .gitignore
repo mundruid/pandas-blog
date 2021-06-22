@@ -1,6 +1,6 @@
  .DS_Store
  .vscode/settings.json
- .vscode/
+ .vscode/*
  data/OS_Scan_csv.csv
  data/OS_Scan_csv.csv.zip
  data/SYN_DoS_csv.csv

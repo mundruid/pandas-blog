@@ -1,6 +1,6 @@
 # Pandas
 
-Pandas data processing Jupyter notebook for blog post. The datasets are taken from the [Kitsune Network Attack Dataset](https://www.kaggle.com/ymirsky/network-attack-dataset-kitsune). You will need to download the files: OS_Scan.pcap, SYN_Dos.pcap and export these to csvs. The Mirai csv is already included, the other two files were too large to be in the repo.
+Pandas data processing Jupyter notebook for blog post. The datasets are taken from the [Kitsune Network Attack Dataset](https://www.kaggle.com/ymirsky/network-attack-dataset-kitsune). You will need to download the files: `OS_Scan.pcap, SYN_Dos.pcap` and export these to csv. The Mirai csv is already included, the other two files were too large to be in the repo.
 
 ## Install dependencies
 
