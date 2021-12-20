@@ -15,3 +15,5 @@ All the Python dependencies can be installed using poetry. Follow the steps belo
 4. Run: `which python` and copy the full path of the Python interpreter to `.vscode/settings.json` substituting the variable: `"python.pythonPath": <full_path_to_python_env_var>`
 
 5. Change the Jupyter notebook kernel to the poetry venv Python path.
+
+Note: The `OS_Scan_dataset.csv` is not included in the data because of the file size (5 GB). You will need to download the pcap from [Kitsune Network Attack Dataset](https://www.kaggle.com/ymirsky/network-attack-dataset-kitsune), add two columnes for source and destination port, and export the pcap to a csv file. 
