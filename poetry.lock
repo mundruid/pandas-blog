@@ -851,6 +851,14 @@ examples = ["matplotlib (>=2.1.1)", "scikit-image (>=0.13)", "pandas (>=0.25.0)"
 tests = ["matplotlib (>=2.1.1)", "scikit-image (>=0.13)", "pandas (>=0.25.0)", "pytest (>=5.0.1)", "pytest-cov (>=2.9.0)", "flake8 (>=3.8.2)", "mypy (>=0.770)", "pyamg (>=4.0.0)"]
 
 [[package]]
+name = "scikits.statsmodels"
+version = "0.3.1"
+description = "Statistical computations and models for use with SciPy"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "scipy"
 version = "1.6.1"
 description = "SciPy: Scientific Library for Python"
@@ -995,7 +1003,7 @@ notebook = ">=4.4.1"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "bb4840e767923317f87f60083aa8e45a3c213aa8ec2e591ff021b7127cfdace6"
+content-hash = "fc5854c3f80b37f9961a59dde0d6ac24e750deea8394f08a7ef893a4d983e08b"
 
 [metadata.files]
 appnope = [
@@ -1610,6 +1618,10 @@ scikit-learn = [
     {file = "scikit_learn-0.24.2-cp39-cp39-manylinux2014_aarch64.whl", hash = "sha256:4e6198675a6f9d333774671bd536668680eea78e2e81c0b19e57224f58d17f37"},
     {file = "scikit_learn-0.24.2-cp39-cp39-win32.whl", hash = "sha256:cbdb0b3db99dd1d5f69d31b4234367d55475add31df4d84a3bd690ef017b55e2"},
     {file = "scikit_learn-0.24.2-cp39-cp39-win_amd64.whl", hash = "sha256:40556bea1ef26ef54bc678d00cf138a63069144a0b5f3a436eecd8f3468b903e"},
+]
+"scikits.statsmodels" = [
+    {file = "scikits.statsmodels-0.3.1.tar.gz", hash = "sha256:e31531bd603bd37a32bda50b034f7f7c941eb947a95f34890e0c084a0a5ff977"},
+    {file = "scikits.statsmodels-0.3.1.zip", hash = "sha256:c538697296c983a01d5838b3e14f4f1b156d95a11878ace70e971eefad49c777"},
 ]
 scipy = [
     {file = "scipy-1.6.1-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:a15a1f3fc0abff33e792d6049161b7795909b40b97c6cc2934ed54384017ab76"},

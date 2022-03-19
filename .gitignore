@@ -1,6 +1,6 @@
 .DS_Store
-.vscode/settings.json
-.vscode/*
+.vscode
 data/OS_Scan_dataset.csv
 pandas-blog/pandas-test.ipynb
 pandas-blog/test.png
+.venv
